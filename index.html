@@ -9,54 +9,216 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
     <!-- CSS -->
-    <link href="dist/output.css?17" rel="stylesheet" />
+    <link rel="stylesheet" href="dist/style.css?31" />
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png" />
+    <link rel="manifest" href="assets/favicon/site.webmanifest" />
+    <!-- Meta -->
+    <meta name="title" content="Filotimo, All in One Digital Services Solution" />
+    <meta name="description" content="Kindly worry no more! Reach us through our contacts listed below for free consultations or kindly chat with our service team 24/7." />
+    <meta name="keywords" content="desain madiun, eo madiun, wedding madiun," />
+    <meta name="robots" content="index, follow" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="language" content="English" />
+    <meta name="revisit-after" content="1 days" />
     <title>Filotimo</title>
   </head>
   <body>
-    <!-- Navbar -->
-    <header class="h-screen bg-local bg-center py-4" style="background-image: url(assets/img/home.jpg)">
-      <nav class="mx-6 lg:container lg:mx-auto lg:mt-8">
-        <div class="flex justify-between items-center">
-          <div class="flex items-center">
-            <svg viewBox="0 0 368 508" fill="curentcolor" xmlns="http://www.w3.org/2000/svg" class="h-6 mr-2 lg:h-12 fill-white hover:fill-kuning flex">
-              <path d="M0 92.5L368 0V194.5H0V92.5Z" fill="curentcolor" />
-              <path d="M0 214.5H184V357.5L0 321.5V214.5Z" fill="curentcolor" />
-              <circle cx="75" cy="432.5" r="75" fill="curentcolor" />
-            </svg>
-            <a href="#" class="flex text-white font-poppins font-bold text-3xl hover:text-kuning">Filotimo</a>
+    <header class="bg-local h-screen bg-center relative" style="background-image: url(assets/img/home.jpg)">
+      <!-- Sidebar -->
+      <div id="sidebar" class="hidden bg-white absolute h-screen text-black left-0 top-0 font-poppins">
+        <div class="xl:mx-10 lg:mx-10 mx-4 py-8 h-screen">
+          <div class="kanan mb-4">
+            <button class="fill-black kanan">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                <path
+                  id="_6611381_elements_interface_list_menu_ui_icon"
+                  data-name="6611381_elements_interface_list_menu_ui_icon"
+                  d="M28.846,3H9.154A6.094,6.094,0,0,0,3,9.154V28.846A6.094,6.094,0,0,0,9.154,35H28.846A6.094,6.094,0,0,0,35,28.846V9.154A6.094,6.094,0,0,0,28.846,3ZM26.385,25.154H16.538a1.231,1.231,0,1,1,0-2.462h9.846a1.231,1.231,0,1,1,0,2.462Zm0-4.923H14.077a1.231,1.231,0,1,1,0-2.462H26.385a1.231,1.231,0,0,1,0,2.462Zm0-4.923H11.615a1.231,1.231,0,1,1,0-2.462H26.385a1.231,1.231,0,1,1,0,2.462Z"
+                  transform="translate(-3 -3)"
+                  fill="curentcolor"
+                />
+              </svg>
+            </button>
           </div>
-          <div class="hidden md:block space-x-7 flex items-center text-white">
-            <a href="#" class="font-poppins font-normal hover:text-kuning hover:border-b-4 border-kuning">Home</a>
-            <a href="about/" class="font-poppins font-normal hover:text-kuning hover:border-b-4 border-kuning">About Us</a>
-            <a href="services/" class="font-poppins font-normal hover:text-kuning hover:border-b-4 border-kuning">Our Services</a>
-            <a href="#" class="font-poppins font-normal hover:text-kuning hover:border-b-4 border-kuning">Portofolio</a>
-            <a href="#" class="font-poppins font-normal hover:text-kuning hover:border-b-4 border-kuning">Blog</a>
-            <a href="#" class="font-poppins font-normal hover:text-kuning hover:border-b-4 border-kuning">Contact Us</a>
+          <menu class="grid col-span-2 btn active gap-4">
+            <div class="">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-6" viewBox="0 0 17.333 16">
+                <path id="Icon_ionic-md-home" data-name="Icon ionic-md-home" d="M10.042,20.5V15.167h4V20.5h4.067v-8h2.6l-8.667-8-8.667,8h2.6v8Z" transform="translate(-3.375 -4.5)" />
+              </svg>
+            </div>
+            <div>
+              <a href="#">Home</a>
+            </div>
+          </menu>
+          <menu class="grid col-span-2 btn gap-4">
+            <div class="">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-6" viewBox="0 0 24.62 16">
+                <g id="Icon_ionic-ios-people" data-name="Icon ionic-ios-people" transform="translate(-2.215 -7.748)">
+                  <path
+                    id="Path_19"
+                    data-name="Path 19"
+                    d="M20.945,20.058c-.614-.219-1.618-.23-2.062-.4a2.913,2.913,0,0,1-.954-.444,5.9,5.9,0,0,1-.159-1.563,2.524,2.524,0,0,0,.543-.768,8.531,8.531,0,0,0,.263-1.508s.362.154.5-.57c.121-.625.351-.954.291-1.415s-.318-.351-.318-.351a4.106,4.106,0,0,0,.318-2.051A3.281,3.281,0,0,0,15.83,7.748a3.293,3.293,0,0,0-3.548,3.241,4.167,4.167,0,0,0,.313,2.051s-.258-.11-.318.351.164.79.291,1.415c.143.729.5.57.5.57a8.614,8.614,0,0,0,.263,1.508,2.524,2.524,0,0,0,.543.768,5.9,5.9,0,0,1-.159,1.563,2.8,2.8,0,0,1-.954.439c-.439.17-1.442.192-2.062.411a3.87,3.87,0,0,0-2.511,3.685h15.26A3.862,3.862,0,0,0,20.945,20.058Z"
+                    transform="translate(-1.316)"
+                  />
+                  <path
+                    id="Path_20"
+                    data-name="Path 20"
+                    d="M8.164,18.15A3.722,3.722,0,0,0,10,17.64c-.85-1.289-.389-2.791-.565-4.195A2.313,2.313,0,0,0,6.87,11.208H6.848a2.321,2.321,0,0,0-2.539,2.237c-.175,1.4.313,3.071-.559,4.195a3.445,3.445,0,0,0,1.837.455h0a2.777,2.777,0,0,1-.055.921,1.385,1.385,0,0,1-.658.3,12.722,12.722,0,0,0-1.42.395,2.309,2.309,0,0,0-1.239,2.04h4.4a3.939,3.939,0,0,1,1.755-1.634,3.682,3.682,0,0,1,1.354-.285s.208-.329-.477-.455A4.674,4.674,0,0,1,8.2,19.01C8.093,18.89,8.164,18.15,8.164,18.15Z"
+                    transform="translate(0 -0.762)"
+                  />
+                  <path
+                    id="Path_21"
+                    data-name="Path 21"
+                    d="M25.639,18.15a3.722,3.722,0,0,1-1.831-.51c.85-1.289.389-2.791.565-4.195a2.313,2.313,0,0,1,2.561-2.237h.022a2.321,2.321,0,0,1,2.539,2.237c.175,1.4-.313,3.071.559,4.195a3.445,3.445,0,0,1-1.837.455h0a2.777,2.777,0,0,0,.055.921,1.385,1.385,0,0,0,.658.3,12.723,12.723,0,0,1,1.42.395,2.309,2.309,0,0,1,1.239,2.04h-4.4a3.939,3.939,0,0,0-1.755-1.634,3.682,3.682,0,0,0-1.354-.285s-.208-.329.477-.455a4.674,4.674,0,0,0,1.053-.367C25.71,18.89,25.639,18.15,25.639,18.15Z"
+                    transform="translate(-4.754 -0.762)"
+                  />
+                </g>
+              </svg>
+            </div>
+            <div>
+              <a href="#">About Us</a>
+            </div>
+          </menu>
+          <menu class="grid col-span-2 btn gap-4">
+            <div class="">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-6" viewBox="0 0 20 16">
+                <path
+                  id="Icon_awesome-project-diagram"
+                  data-name="Icon awesome-project-diagram"
+                  d="M12,10H8a1,1,0,0,0-1,1v4a1,1,0,0,0,1,1h4a1,1,0,0,0,1-1V11A1,1,0,0,0,12,10ZM6,1A1,1,0,0,0,5,0H1A1,1,0,0,0,0,1V5A1,1,0,0,0,1,6H3.991l2.286,4A1.993,1.993,0,0,1,8,9h.009L6,5.485V4h7V2H6ZM19,0H15a1,1,0,0,0-1,1V5a1,1,0,0,0,1,1h4a1,1,0,0,0,1-1V1A1,1,0,0,0,19,0Z"
+                />
+              </svg>
+            </div>
+            <div>
+              <a href="#">Our Services</a>
+            </div>
+          </menu>
+          <menu class="grid col-span-2 btn gap-4">
+            <div class="">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-6" viewBox="0 0 19.556 16">
+                <path
+                  id="Icon_material-featured-play-list"
+                  data-name="Icon material-featured-play-list"
+                  d="M19.278,4.5h-16A1.783,1.783,0,0,0,1.5,6.278V18.722A1.783,1.783,0,0,0,3.278,20.5h16a1.783,1.783,0,0,0,1.778-1.778V6.278A1.783,1.783,0,0,0,19.278,4.5Zm-8,7.111h-8V9.833h8Zm0-3.556h-8V6.278h8Z"
+                  transform="translate(-1.5 -4.5)"
+                />
+              </svg>
+            </div>
+            <div>
+              <a href="#">Portofolio</a>
+            </div>
+          </menu>
+          <menu class="grid col-span-2 btn gap-4">
+            <div class="">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-6" viewBox="0 0 15.998 16">
+                <path
+                  id="Icon_awesome-blog"
+                  data-name="Icon awesome-blog"
+                  d="M5.381,7.087a.751.751,0,0,0-.881.744V9.406a.751.751,0,0,0,.522.688A1.5,1.5,0,1,1,3,11.5V3.749A.748.748,0,0,0,2.25,3H.75a.748.748,0,0,0-.75.75V11.5A4.5,4.5,0,1,0,5.381,7.087ZM6.531,0A.5.5,0,0,0,6,.5v.988a.5.5,0,0,0,.469.5A8.026,8.026,0,0,1,14,9.531a.5.5,0,0,0,.5.469h1a.5.5,0,0,0,.5-.531A10.024,10.024,0,0,0,6.531,0Zm.009,3A.5.5,0,0,0,6,3.5v1a.5.5,0,0,0,.463.5A4.992,4.992,0,0,1,10.991,9.54a.5.5,0,0,0,.5.459h1.006a.506.506,0,0,0,.5-.541A7.031,7.031,0,0,0,6.541,3Z"
+                  transform="translate(0 0.002)"
+                />
+              </svg>
+            </div>
+            <div>
+              <a href="#">Blog</a>
+            </div>
+          </menu>
+          <menu class="grid col-span-2 btn gap-4">
+            <div class="">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-6" viewBox="0 0 13.333 16">
+                <path
+                  id="Icon_material-contacts"
+                  data-name="Icon material-contacts"
+                  d="M15,0H4.333V1.333H15ZM4.333,16H15V14.667H4.333ZM15,2.667H4.333A1.337,1.337,0,0,0,3,4v8a1.337,1.337,0,0,0,1.333,1.333H15A1.337,1.337,0,0,0,16.333,12V4A1.337,1.337,0,0,0,15,2.667ZM9.667,4.5A1.5,1.5,0,1,1,8.167,6,1.5,1.5,0,0,1,9.667,4.5ZM13,11.333H6.333v-1c0-1.113,2.22-1.667,3.333-1.667S13,9.22,13,10.333Z"
+                  transform="translate(-3)"
+                />
+              </svg>
+            </div>
+            <div>
+              <a href="#">Contact Us</a>
+            </div>
+          </menu>
+          <div class="bottom-0 kanan pt-16">
+            <button href="#" class="font-poppins font-bold bg-kuning rounded-md py-1 px-6 flex items-center text-black">
+              LOGIN
+              <svg xmlns="http://www.w3.org/2000/svg" width="13.357" height="17" viewBox="0 0 13.357 17" class="ml-2">
+                <g id="_1" data-name="1" transform="translate(-5 -2)">
+                  <path
+                    id="login_account_enter_door"
+                    d="M18.357,2.607V18.393A.607.607,0,0,1,17.75,19H5.607A.607.607,0,0,1,5,18.393V17.179H6.214v.607H17.143V3.214H6.214V5.036H5V2.607A.607.607,0,0,1,5.607,2H17.75A.607.607,0,0,1,18.357,2.607ZM9.426,13.1l.862.862,3.036-3.036a.607.607,0,0,0,0-.862L10.288,7.033,9.426,7.9l2,2H5v1.214h6.43Z"
+                  />
+                </g>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- Navbar -->
+      <nav class="xl:mx-10 lg:mx-10 mx-4 py-8">
+        <div class="flex justify-between items-center">
+          <div class="">
+            <a href="#">
+              <svg id="Component_13_1" data-name="Component 13 – 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 169 45" class="h-10">
+                <g id="Layer_2_00000176005099121648187800000013344932387276069258_" transform="translate(0 4.845)">
+                  <g id="Layer_1-2">
+                    <path id="Path_1" data-name="Path 1" d="M26.144,0V13.58H.5V6.391Z" transform="translate(-0.472)" fill="#fff" />
+                    <path id="Path_2" data-name="Path 2" d="M12.862,265.6l-.028,9.858L0,272.958.028,265.6Z" transform="translate(0 -250.578)" fill="#fff" />
+                    <circle id="Ellipse_1" data-name="Ellipse 1" cx="5.215" cy="5.215" r="5.215" transform="translate(0 24.881)" fill="#fff" />
+                  </g>
+                </g>
+                <text id="Filotimo" transform="translate(35 34)" fill="#fff" font-size="32" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="0" y="0">Filotimo</tspan></text>
+              </svg>
+            </a>
+          </div>
+          <div class="flex space-x-4">
+            <button href="#" class="font-poppins font-bold bg-kuning rounded-md py-1 px-6 flex items-center text-black">
+              LOGIN
+              <svg xmlns="http://www.w3.org/2000/svg" width="13.357" height="17" viewBox="0 0 13.357 17" class="ml-2">
+                <g id="_1" data-name="1" transform="translate(-5 -2)">
+                  <path
+                    id="login_account_enter_door"
+                    d="M18.357,2.607V18.393A.607.607,0,0,1,17.75,19H5.607A.607.607,0,0,1,5,18.393V17.179H6.214v.607H17.143V3.214H6.214V5.036H5V2.607A.607.607,0,0,1,5.607,2H17.75A.607.607,0,0,1,18.357,2.607ZM9.426,13.1l.862.862,3.036-3.036a.607.607,0,0,0,0-.862L10.288,7.033,9.426,7.9l2,2H5v1.214h6.43Z"
+                  />
+                </g>
+              </svg>
+            </button>
+            <button onclick="myFunction()" class="text-black">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                <path
+                  id="_6611381_elements_interface_list_menu_ui_icon"
+                  data-name="6611381_elements_interface_list_menu_ui_icon"
+                  d="M28.846,3H9.154A6.094,6.094,0,0,0,3,9.154V28.846A6.094,6.094,0,0,0,9.154,35H28.846A6.094,6.094,0,0,0,35,28.846V9.154A6.094,6.094,0,0,0,28.846,3ZM26.385,25.154H16.538a1.231,1.231,0,1,1,0-2.462h9.846a1.231,1.231,0,1,1,0,2.462Zm0-4.923H14.077a1.231,1.231,0,1,1,0-2.462H26.385a1.231,1.231,0,0,1,0,2.462Zm0-4.923H11.615a1.231,1.231,0,1,1,0-2.462H26.385a1.231,1.231,0,1,1,0,2.462Z"
+                  transform="translate(-3 -3)"
+                  fill="#e5ff0a"
+                />
+              </svg>
+            </button>
           </div>
         </div>
       </nav>
-      <!-- HERO -->
-      <div class="lg:container lg:mx-auto animate-show">
-        <div class="hero lg:w-2/4" data-tilt data-tilt-max="50" data-tilt-speed="100" data-tilt-perspective="500">
-          <div class="mt-28 mb-0 mx-4 font-poppins font-bold text-2xl lg:text-5xl text-white lg:container lg:mx-auto">
-            <div class="lg:my-4">
-              <span class="bg-black pr-4 lg:mt-4">AN ESSENTIAL<span class="text-kuning"> ASPECT</span></span>
+      <div class="h-screen mt-[-15vh] items-center grid grid-cols-1">
+        <div class="my-auto lg:w-3/5 font-poppins font-bold text-white lg:text-5xl text-xl xl:mx-10 lg:mx-10 mx-4">
+          <div>
+            <div class="lg:my-2">
+              <span class="bg-black pr-4"> AN ESSENTIAL <span class="text-kuning">ASPECT</span> </span>
             </div>
-            <div class="lg:my-4">
-              <span class="bg-black pr-4 lg:mt-4">OF CREATIVITY</span>
+            <div class="lg:my-2">
+              <span class="bg-black pr-4">OF CREATIVITY</span>
             </div>
-            <div class="lg:my-4">
-              <span class="bg-black pr-4 lg:mt-4">IS NOT<span class="text-kuning"> BEING</span> AFRAID TO FAIL</span>
+            <div class="lg:my-2">
+              <span class="bg-black pr-4" class="bg-black pr-4">IS NOT<span class="text-kuning"> BEING </span>AFRAID TO FAIL</span>
             </div>
-            <div class="font-normal text-xs mt-2 lg:text-lg"><span class="font-semibold">Filotimo</span><span>, All in One Services Digital Solutions</span></div>
           </div>
+          <div class="font-normal text-xs mt-6 lg:text-lg"><span class="font-semibold">Filotimo</span><span>, All in One Digital Services Solutions</span></div>
+          <button class="mt-12 border-4 border-white text-lg py-1 px-8 font-poppins font-bold hover:border-kuning hover:text-kuning">LET'S GO</button>
         </div>
       </div>
-      <div class="mt-16 mx-4 font-poppins font-bold text-2xl lg:text-5xl text-white lg:container lg:mx-auto">
-        <a href="#" class="animate-show font-semibold text-xl border-4 py-2 px-10 hover:text-kuning hover:border-kuning delay-200">LET'S GO</a>
-      </div>
     </header>
-    <section class="mx-4 py-8 lg:py-32 text-center font-poppins text-black lg:container lg:mx-auto lg:grid lg:grid-cols-4 lg:gap-4">
+    <!-- About -->
+    <section class="lg:mx-16 mx-2 py-8 text-center font-poppins text-black lg:grid lg:grid-cols-4 lg:gap-2">
       <div>
         <img src="assets/img/FW_Acid_074.png" alt="think" class="h-24 mx-auto animate-spin-slow" />
         <h1 class="font-bold text-2xl mb-2">THINK</h1>
@@ -78,7 +240,7 @@
         <p class="font-normal text-xs text-gray-500 mx-10">In case of new marketing needs, we repeat the process to maintain high performace of your business.</p>
       </div>
     </section>
-    <!-- Hero 2 -->
+    <!-- Hero -->
     <section class="h-screen bg-local" style="background-position: center; background-image: url(assets/img/about.jpg)">
       <div class="h-screen text-white font-poppins font-bold mx-4 text-4xl lg:text-8xl grid grid-cols-1 gap-0 place-items-center">
         <div class="">
@@ -96,9 +258,6 @@
       </div>
     </section>
     <!-- Team -->
-    <div class="bg-black font-poppins text-lg text-white py-7">
-      <div class="mx-4 lg:container lg:mx-52"><span class="font-bold text-kuning">Filotimo,</span> Team to help your project</div>
-    </div>
     <div class="grid lg:grid-cols-3 gap-0">
       <!-- anjas -->
       <div class="bg-local lg:h-[400px] h-44" style="background-position: center; background-image: url(assets/img/anjas.jpg); background-size: cover">
@@ -198,12 +357,15 @@
       </div>
     </div>
     <!-- Quotes -->
-    <section class="bg-black font-poppins py-16 text-white">
-      <div class="font-bold text-xl mx-4 lg:mx-96">"CONTENT IS FIRE, SOCIAL MEDIA IS GASOLINE"</div>
-      <div class="text-xs mx-4 mt-5 lg:mx-96">- Jay Baer - Bestselling Author, Marketing Expert and Founder of Convince & Convert</div>
-    </section>
+    <div class="bg-black py-8 text-white font-poppins font-medium">
+      <p class="lg:mx-36 mx-4">
+        "None of us, including me, ever do <span class="text-kuning">great things</span> . But we <span class="text-kuning">can all do small things</span>, with great love, and together <span class="text-kuning">we can</span> do something
+        wonderful."
+      </p>
+      <p class="font-light text-sm lg:mx-36 mt-6 mx-4">– Mother Teresa</p>
+    </div>
     <!-- Contact Us -->
-    <section class="mx-4 py-8 font-poppins lg:mx-64">
+    <section class="py-8 font-poppins xl:mx-10 lg:mx-10 mx-4">
       <div class="font-bold text-black text-2xl mb-4">DON'T BE SHY, SAY HELLO!</div>
       <div class="lg:grid lg:grid-cols-3 gap-4">
         <div class="lg:col-span-2">
@@ -232,24 +394,24 @@
           </div>
         </div>
         <div>
-          <div>
+          <div class="hidden lg:block text-black">
             <div class="font-poppins font-bold text-2xl">OFFICE</div>
             <a href="#" class="font-poppins text-sm text-slate-400 pb-4">Perumahan Telaga Mas, <br />Jl. Dorang Mas M.22 <br />Kelun, Kartoharjo, Kota Madiun, <br />Jawa Timur, Indonesia 63112</a>
             <div class="font-poppins font-bold text-2xl mt-4">RING US</div>
             <a href="#" class="font-poppins text-sm text-slate-400 pb-4">+62-895-809-462-040</a>
             <div class="font-poppins font-bold text-2xl mt-4">EMAIL US</div>
-            <a href="#" class="font-poppins text-sm text-slate-400 pb-4">anjaskurniawan737@gmail.com</a>
+            <a href="#" class="font-poppins text-sm text-slate-400 pb-4">official@filotimo.id</a>
           </div>
         </div>
       </div>
       <div class="mt-8">
-        <a href="#" class="font-semibold text-lg border-4 py-2 px-5 border-black hover:border-kuning hover:text-kuning hover:bg-black">SEND_</a>
+        <a href="#" class="font-semibold text-lg border-4 py-2 px-5 border-black hover:border-kuning hover:text-kuning hover:bg-black text-black">SEND_</a>
       </div>
     </section>
     <!-- Footer -->
     <footer>
       <div class="bg-black">
-        <div class="lg:mx-44 lg:py-28 font-poppins py-6 mx-4">
+        <div class="xl:mx-10 lg:mx-10 mx-4 lg:py-28 font-poppins py-6">
           <div class="lg:grid grid-cols-3 gap-8 text-white">
             <div>
               <div class="font-bold lg:text-2xl text-xl">ABOUT US</div>
@@ -289,7 +451,7 @@
       </div>
       <!-- footer -->
       <div class="bg-black py-12">
-        <div class="lg:container lg:mx-auto mx-4 flex justify-between">
+        <div class="xl:mx-10 lg:mx-10 mx-4 flex justify-between">
           <div class="flex items-center">
             <img src="assets/icon/logo.png" alt="logo" class="lg:h-16 h-9 flex items-center mr-4" />
             <a href="#" class="lg:text-5xl text-2xl flex items-center text-white font-poppins font-bold">Filotimo</a>
@@ -320,7 +482,7 @@
         </div>
       </div>
     </footer>
-    <!-- JS SCRIPT -->
+    <!-- JS Script -->
     <script type="module" src="js/vanilla-tilt.js"></script>
     <script src="js/typed.js"></script>
     <script>
@@ -340,6 +502,16 @@
         autoInsertCss: false,
         loop: true,
       });
+    </script>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("sidebar");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
     </script>
   </body>
 </html>

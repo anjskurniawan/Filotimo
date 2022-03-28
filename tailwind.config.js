@@ -1,9 +1,10 @@
 module.exports = {
-  content: ["./src/**/*.{html,js}", "./index.html", "./about/**/*.{html,js}", "./contact/**/*.{html,js}", "./blog/**/*.{html,js}", "./services/**/*.{html,js}", "./portfolio/**/*.{html,js}", "./404.html"],
+  content: ["./src/**/*.{html,js}", "./index.html", "./about/**/*.{html,js}", "./contact/**/*.{html,js}", "./blog/**/*.{html,js}", "./services/**/*.{html,js}", "./portfolio/**/*.{html,js}", "./404.html", "./sidebar.html"],
   theme: {
     extend: {
       fontFamily: {
         poppins: ["Poppins"],
+        roboto: ["Roboto"],
       },
       colors: {
         kuning: "#E5FF0A",
